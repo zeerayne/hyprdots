@@ -15,7 +15,8 @@ N|Y|${HOME}/.config/hypr|hypridle.conf|hypridle
 Y|Y|${HOME}/.config/hypr|hyprlock|hyprlock
 N|Y|${HOME}/.config/hypr|hyprlock.conf|hyprlock
 Y|Y|${HOME}/.local/share|bin|hyprland
-Y|Y|${HOME}/.config|kitty|kitty
+Y|Y|${HOME}/.config/kitty|kitty.conf theme.conf|kitty
+N|Y|${HOME}/.config/kitty|userprefs.conf|kitty
 Y|Y|${HOME}/.config|Kvantum|kvantum
 Y|Y|${HOME}/.config|MangoHud|mangohud
 Y|Y|${HOME}/.config|fastfetch|fastfetch
