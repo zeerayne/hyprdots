@@ -204,7 +204,7 @@ For more information, visit [prasanthrangan/hyde-themes](https://github.com/pras
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd> | Launch style select menu (rofi) |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd> | Launch wallpaper select menu (rofi) |
 | <kbd>Super</kbd> + <kbd>V</kbd> | Launch clipboard (rofi) |
-| <kbd>Super</kbd> + <kbd>K</kbd> | Switch keyboard layout |
+| <kbd>Super</kbd> + <kbd>Space</kbd> | Switch keyboard layout |
 | <kbd>Super</kbd> + <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd> | Move window focus |
 | <kbd>Alt</kbd> + <kbd>Tab</kbd> | Change window focus |
 | <kbd>Super</kbd> + <kbd>[0-9]</kbd> | Switch workspaces |
