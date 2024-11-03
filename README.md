@@ -192,9 +192,6 @@ For more information, visit [prasanthrangan/hyde-themes](https://github.com/pras
 | <kbd>Super</kbd> + <kbd>A</kbd> | Launch application launcher (rofi) |
 | <kbd>Super</kbd> + <kbd>Tab</kbd> | Launch window switcher (rofi) |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd> | Launch file explorer (rofi) |
-| <kbd>F10</kbd> | Toggle audio mute |
-| <kbd>F11</kbd> | Decrease volume |
-| <kbd>F12</kbd> | Increase volume |
 | <kbd>Super</kbd> + <kbd>P</kbd> | Partial screenshot capture |
 | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>P</kbd> | Partial screenshot capture (frozen screen) |
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd> | Monitor screenshot capture |
