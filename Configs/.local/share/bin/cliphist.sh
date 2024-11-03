@@ -52,7 +52,6 @@ case "${main_action}" in
     selected_item=$(cliphist list | rofi -dmenu -theme-str "entry { placeholder: \"History...\";}" -theme-str "${r_scale}" -theme-str "${r_override}" -config "${roconf}")
     if [ -n "$selected_item" ]; then
         echo "$selected_item" | cliphist decode | wl-copy
-        notify-send "Copied to clipboard."
     fi
     ;;
 "Delete")
@@ -85,7 +84,6 @@ case "${main_action}" in
                 selected_encoded_favorite="${favorites[$((index - 1))]}"
                 # Decode and copy the full multi-line content to clipboard
                 echo "$selected_encoded_favorite" | base64 --decode | wl-copy
-                notify-send "Copied to clipboard."
             else
                 notify-send "Error: Selected favorite not found."
             fi
