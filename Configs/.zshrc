@@ -1,12 +1,8 @@
-# Oh-my-zsh installation path
-ZSH=/usr/share/oh-my-zsh/
+eval "$(dircolors -b)"
+eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/powerlevel10k_lean.omp.json)"
 
-# Powerlevel10k theme path
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-
-# List of plugins used
-plugins=()
-source $ZSH/oh-my-zsh.sh
+# Load zsh plugins via sheldon
+eval "$(sheldon source)"
 
 # In case a command is not found, try to find the package that has it
 function command_not_found_handler {
@@ -81,9 +77,3 @@ alias .5='cd ../../../../..'
 
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 alias mkdir='mkdir -p'
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# Display Pokemon
-pokemon-colorscripts --no-title -r 1,3,6
