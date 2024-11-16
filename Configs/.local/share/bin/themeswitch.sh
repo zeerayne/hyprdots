@@ -115,6 +115,11 @@ if pkg_installed flatpak ; then
     fi
 fi
 
+#// dunst
+
+sed -i "/^    icon_theme =/c\    icon_theme = \"${gtkIcon}\"" $confDir/dunst/dunst.conf
+ln -s $HOME/.icons/${gtkIcon} ${XDG_DATA_HOME:-$HOME/.local/share}/icons/${gtkIcon}
+
 #// wallpaper
 
 "${scrDir}/swwwallpaper.sh" -s "$(readlink "${hydeThemeDir}/wall.set")"
